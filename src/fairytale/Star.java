@@ -42,7 +42,7 @@ public class Star implements LightActions{
     @Override
     public void blinding(Character hero) {
         hero.squint();
-        System.out.println(hero.name + " is squinting because of the " + name);
+        System.out.println(hero.getName() + " is squinting because of the " + name);
     }
 
     @Override

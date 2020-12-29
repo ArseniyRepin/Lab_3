@@ -2,7 +2,7 @@ package fairytale;
 import java.util.Objects;
 
 public class Character implements Skills, RelaxActions, PositionActions, ClothesActions, FaceActions  {
-    public final String name;
+    private final String name;
     private final int clothes_size;
     private TypeOfLocation now_place = TypeOfLocation.UNKNOWN;
     private String[] clothes = new String[10];
@@ -72,11 +72,11 @@ public class Character implements Skills, RelaxActions, PositionActions, Clothes
             Headdress thing = (Headdress) obj;
             if (thing.getSize() >= clothes_size) {
                 if(cnt_cl < 10){
-                    clothes[cnt_cl] = thing.type;
+                    clothes[cnt_cl] = thing.getType();
                     cnt_cl++;
-                    System.out.println(name + " put on the " + thing.type);
+                    System.out.println(name + " put on the " + thing.getType());
                 }else{
-                    System.out.println(name + " can't put on the " + thing.type + ". Too many clothes.");
+                    System.out.println(name + " can't put on the " + thing.getType() + ". Too many clothes.");
                 }
             }
         }
@@ -94,4 +94,6 @@ public class Character implements Skills, RelaxActions, PositionActions, Clothes
     public void describeMood(){
         System.out.println(name + " is in a " + moodType[moodIndex] + " mood");
     }
+
+    public String getName(){return name;}
 }

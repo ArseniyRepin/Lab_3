@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Headdress extends Clothes{
     private final int size;
-    public final String type;
+    private final String type;
     private final String condition;
 
     Headdress(String type, int size, String condition) {
@@ -40,4 +40,7 @@ public class Headdress extends Clothes{
     public int getSize() {
         return size;
     }
+
+    @Override
+    public String getType(){return type;}
 }

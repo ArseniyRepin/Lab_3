@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fairytale</OriginalElement>
+  <nodes>
+    <node x="934.6120071684586" y="0.0">fairytale.TypeOfLocation</node>
+    <node x="619.8419578853046" y="337.0">fairytale.ClothesActions</node>
+    <node x="658.9669578853045" y="1654.0">fairytale.Main</node>
+    <node x="401.7370071684586" y="1127.0">fairytale.PlaceOfSky</node>
+    <node x="549.4831989247311" y="561.0">fairytale.Character</node>
+    <node x="663.4870071684586" y="1353.0">fairytale.Reservoirs</node>
+    <node x="319.4870071684586" y="1342.0">fairytale.Star</node>
+    <node x="974.8419578853046" y="326.0">fairytale.PositionActions</node>
+    <node x="202.7370071684586" y="1171.5">fairytale.LightActions</node>
+    <node x="21.0" y="11.0">fairytale.Clothes</node>
+    <node x="0.0" y="237.0">fairytale.Headdress</node>
+    <node x="288.8419578853046" y="337.0">fairytale.FaceActions</node>
+    <node x="799.8419578853046" y="337.0">fairytale.Skills</node>
+    <node x="444.8419578853046" y="337.0">fairytale.RelaxActions</node>
+    <node x="613.7370071684586" y="1182.5">fairytale.LightEffects</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fairytale.Main" target="fairytale.Character">
+      <point x="49.66666666666663" y="-27.0" />
+      <point x="783.1336245519713" y="1624.0" />
+      <point x="905.7169578853045" y="1624.0" />
+      <point x="905.7169578853045" y="1077.0" />
+      <point x="741.0665322580644" y="1077.0" />
+      <point x="87.08333333333331" y="248.0" />
+    </edge>
+    <edge source="fairytale.Main" target="fairytale.PlaceOfSky">
+      <point x="-16.555555555555543" y="-27.0" />
+      <point x="716.9114023297491" y="1604.0" />
+      <point x="583.9669578853045" y="1604.0" />
+      <point x="583.9669578853045" y="1317.0" />
+      <point x="561.7370071684586" y="1317.0" />
+      <point x="64.0" y="82.5" />
+    </edge>
+    <edge source="fairytale.Character" target="fairytale.RelaxActions">
+      <point x="-13.062499999999943" y="-248.0" />
+      <point x="640.9206989247311" y="511.0" />
+      <point x="522.3419578853046" y="511.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="fairytale.Character" target="fairytale.Skills">
+      <point x="39.18750000000006" y="-248.0" />
+      <point x="693.1706989247311" y="521.0" />
+      <point x="876.8419578853046" y="521.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="fairytale.Character" target="fairytale.TypeOfLocation">
+      <point x="-65.31249999999994" y="-248.0" />
+      <point x="588.6706989247311" y="531.0" />
+      <point x="278.3419578853046" y="531.0" />
+      <point x="278.3419578853046" y="207.0" />
+      <point x="961.7370071684586" y="207.0" />
+      <point x="-81.375" y="93.5" />
+    </edge>
+    <edge source="fairytale.LightEffects" target="fairytale.Character">
+      <point x="0.0" y="-27.0" />
+      <point x="708.7370071684586" y="1107.0" />
+      <point x="636.5665322580644" y="1107.0" />
+      <point x="-17.416666666666686" y="248.0" />
+    </edge>
+    <edge source="fairytale.Character" target="fairytale.ClothesActions">
+      <point x="13.062500000000057" y="-248.0" />
+      <point x="667.0456989247311" y="511.0" />
+      <point x="699.8419578853046" y="511.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="fairytale.Character" target="fairytale.PositionActions">
+      <point x="91.43750000000006" y="-248.0" />
+      <point x="745.4206989247311" y="541.0" />
+      <point x="1079.3419578853045" y="541.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="fairytale.Main" target="fairytale.Reservoirs">
+      <point x="0.0" y="-27.0" />
+      <point x="733.4669578853045" y="1594.0" />
+      <point x="713.7370071684586" y="1594.0" />
+      <point x="-50.25" y="105.0" />
+    </edge>
+    <edge source="fairytale.Character" target="fairytale.Headdress">
+      <point x="-91.43749999999994" y="-248.0" />
+      <point x="562.5456989247311" y="541.0" />
+      <point x="152.25" y="541.0" />
+      <point x="50.75" y="127.0" />
+    </edge>
+    <edge source="fairytale.Headdress" target="fairytale.Clothes">
+      <point x="0.0" y="-127.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="fairytale.Main" target="fairytale.Headdress">
+      <point x="-66.22222222222223" y="-27.0" />
+      <point x="667.2447356630823" y="1634.0" />
+      <point x="50.75" y="1634.0" />
+      <point x="-50.75" y="127.0" />
+    </edge>
+    <edge source="fairytale.Character" target="fairytale.FaceActions">
+      <point x="-39.18749999999994" y="-248.0" />
+      <point x="614.7956989247311" y="521.0" />
+      <point x="356.8419578853046" y="521.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="fairytale.PositionActions" target="fairytale.TypeOfLocation">
+      <point x="0.0" y="-38.0" />
+      <point x="1079.3419578853045" y="217.0" />
+      <point x="1070.2370071684586" y="217.0" />
+      <point x="27.125" y="93.5" />
+    </edge>
+    <edge source="fairytale.LightActions" target="fairytale.Character">
+      <point x="0.0" y="-38.0" />
+      <point x="291.7370071684586" y="1097.0" />
+      <point x="566.8998655913978" y="1097.0" />
+      <point x="-87.08333333333331" y="248.0" />
+    </edge>
+    <edge source="fairytale.Star" target="fairytale.PlaceOfSky">
+      <point x="25.0" y="-116.0" />
+      <point x="444.4870071684586" y="1317.0" />
+      <point x="433.7370071684586" y="1317.0" />
+      <point x="-64.0" y="82.5" />
+    </edge>
+    <edge source="fairytale.Star" target="fairytale.Character">
+      <point x="-25.0" y="-116.0" />
+      <point x="394.4870071684586" y="1317.0" />
+      <point x="391.2370071684586" y="1317.0" />
+      <point x="391.2370071684586" y="1107.0" />
+      <point x="601.7331989247311" y="1107.0" />
+      <point x="-52.25" y="248.0" />
+    </edge>
+    <edge source="fairytale.Reservoirs" target="fairytale.LightEffects">
+      <point x="-50.25" y="-105.0" />
+      <point x="713.7370071684586" y="1317.0" />
+      <point x="708.7370071684586" y="1317.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="fairytale.Main" target="fairytale.TypeOfLocation">
+      <point x="66.22222222222217" y="-27.0" />
+      <point x="799.6891801075267" y="1634.0" />
+      <point x="1194.3419578853045" y="1634.0" />
+      <point x="1194.3419578853045" y="217.0" />
+      <point x="1124.4870071684586" y="217.0" />
+      <point x="81.375" y="93.5" />
+    </edge>
+    <edge source="fairytale.Star" target="fairytale.LightActions">
+      <point x="-75.0" y="-116.0" />
+      <point x="344.4870071684586" y="1317.0" />
+      <point x="291.7370071684586" y="1317.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="fairytale.Reservoirs" target="fairytale.Character">
+      <point x="50.25" y="-105.0" />
+      <point x="814.2370071684586" y="1097.0" />
+      <point x="671.3998655913978" y="1097.0" />
+      <point x="17.416666666666686" y="248.0" />
+    </edge>
+    <edge source="fairytale.Main" target="fairytale.Star">
+      <point x="-49.666666666666686" y="-27.0" />
+      <point x="683.8002912186379" y="1624.0" />
+      <point x="369.4870071684586" y="1624.0" />
+      <point x="-50.0" y="116.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6428912783751494" x="772.8129255291839" y="1371.4207396394722" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
